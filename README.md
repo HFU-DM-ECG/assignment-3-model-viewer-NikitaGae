@@ -1,1 +1,3 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/XkwgRVff)
+
+Im Model Viewer kann man eine Teekanne sehen welche die Werte der Normalenvektoren nutzt um für jedes face eine individuelle Farbe zu bekommen. Als Umgebung wird eine Texture Cube genutzt welche sechs bilder für jedes face des cubes nutzt. Die plane wird als Untergrund genutzt damit der Schatten irgendwo abgebildet werden kann, welche vom pointlight aus kommt.

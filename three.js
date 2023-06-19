@@ -7,14 +7,13 @@ const camera = new THREE.PerspectiveCamera(70, window.innerWidth/window.innerHei
 camera.position.set(5, 5, 2.5);
 
 const pointLight = new THREE.PointLight(0xffffff, 1, 100);
-pointLight.position.set(4, 4, 1)
+pointLight.position.set(6, 4, -4);
 pointLight.shadow.mapSize.width = 2048;
 pointLight.shadow.mapSize.height = 2048;
 pointLight.shadow.camera.visible = true;
 pointLight.castShadow = true;
 
 scene.add(pointLight);
-
 
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
@@ -85,7 +84,6 @@ const textureCube = cubeTextureLoader.load( [
     'posz.jpg', 'negz.jpg'
 ] );
 scene.background = textureCube;
-
 
 function render() {
     controls.update();
